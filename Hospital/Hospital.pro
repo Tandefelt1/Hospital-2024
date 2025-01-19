@@ -4,4 +4,18 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        careperiod.cpp \
+        cli.cpp \
+        date.cpp \
+        hospital.cpp \
+        main.cpp \
+        person.cpp \
+        utils.cpp
+
+HEADERS += \
+    careperiod.hh \
+    cli.hh \
+    date.hh \
+    hospital.hh \
+    person.hh \
+    utils.hh
